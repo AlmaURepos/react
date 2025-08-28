@@ -1,5 +1,7 @@
 # React + Vite
 
+https://github.com/AlmaURepos/react.git
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -18,3 +20,4 @@ npm create vite@latest react-app
 cd react-app
 npm install
 npm run dev
+
