@@ -1,6 +1,9 @@
 # Some console commands 
 
-npm create vite@latest react-app
-cd react-app
+git clone https://github.com/AlmaURepos/react.git
+
+cd projectfolder
+
 npm install
+
 npm run dev
