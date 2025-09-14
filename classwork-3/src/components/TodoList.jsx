@@ -12,6 +12,7 @@ function ToDoList() {
     setTasks((prev) => {
       
       const next = [...prev, text];
+      
     
       return next;  
 
