@@ -76,12 +76,17 @@ export default function AddBook() {
             {...formik.getFieldProps("genre")}
           >
             <option value="">Select genre</option>
-            <option value="fiction">Fiction</option>
-            <option value="nonfiction">Nonfiction</option>
-            <option value="tech">Tech</option>
+            {["fiction", "nonfiction", "tech"].map((genre) => (
+              <option key={genre} value={genre}>
+                {genre.charAt(0).toUpperCase() + genre.slice(1)}
+              </option>
+            ))}
           </select>
           <div className="invalid-feedback">{formik.errors.genre}</div>
         </div>
+
+
+        
 
         <div className="mb-3">
           <label className="form-label">Rating (0–5)</label>
